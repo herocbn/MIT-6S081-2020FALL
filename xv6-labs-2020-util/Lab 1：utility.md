@@ -1,7 +1,5 @@
 # 6S081 OS-LAB
 
-[TOC]
-
 
 
 Before carry out these labs , you must read materials on the official websites carefully, otherwise, you will be in great trouble.
