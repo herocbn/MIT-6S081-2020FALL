@@ -436,8 +436,7 @@ Use tool package in xv6 lab to test your ans!
 ```c
 $ make grade
 ```
-
-![image-20220329205311320](C:\Users\17386\AppData\Roaming\Typora\typora-user-images\image-20220329205311320.png)
+balabala ......
 
 Test time file is designed for MIT undergraduates. Here we can just ignore it !
 
