@@ -436,9 +436,8 @@ Use tool package in xv6 lab to test your ans!
 ```c
 $ make grade
 ```
-balabala ......
+>balabala ......
 
-Test time file is designed for MIT undergraduates. Here we can just ignore it !
 
 That's all for Lab 1.
 
