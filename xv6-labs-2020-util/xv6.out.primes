@@ -1,0 +1,17 @@
+
+xv6 kernel is booting
+
+hart 1 starting
+hart 2 starting
+init: starting sh
+$ primes
+prime 2
+prime 3
+$ pechroi mOeK 
+5
+prime 7
+prime 11
+prime 13
+prime 17
+OK
+$ qemu-system-riscv64: terminating on signal 15 from pid 41077 (make)
