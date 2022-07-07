@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+NBUCKET	ph.c	8;"	d	file:
+NKEYS	ph.c	9;"	d	file:
+barrier	barrier.c	/^barrier()$/;"	f	file:
+barrier	barrier.c	/^struct barrier {$/;"	s	file:
+barrier_cond	barrier.c	/^  pthread_cond_t barrier_cond;$/;"	m	struct:barrier	file:
+barrier_init	barrier.c	/^barrier_init(void)$/;"	f	file:
+barrier_mutex	barrier.c	/^  pthread_mutex_t barrier_mutex;$/;"	m	struct:barrier	file:
+bstate	barrier.c	/^} bstate;$/;"	v	typeref:struct:barrier
+entry	ph.c	/^struct entry {$/;"	s	file:
+get	ph.c	/^get(int key)$/;"	f	file:
+get_thread	ph.c	/^get_thread(void *xa)$/;"	f	file:
+insert	ph.c	/^insert(int key, int value, struct entry **p, struct entry *n)$/;"	f	file:
+key	ph.c	/^  int key;$/;"	m	struct:entry	file:
+keys	ph.c	/^int keys[NKEYS];$/;"	v
+main	barrier.c	/^main(int argc, char *argv[])$/;"	f
+main	ph.c	/^main(int argc, char *argv[])$/;"	f
+next	ph.c	/^  struct entry *next;$/;"	m	struct:entry	typeref:struct:entry::entry	file:
+now	ph.c	/^now()$/;"	f
+nthread	barrier.c	/^  int nthread;      \/\/ Number of threads that have reached this round of the barrier$/;"	m	struct:barrier	file:
+nthread	barrier.c	/^static int nthread = 1;$/;"	v	file:
+nthread	ph.c	/^int nthread = 1;$/;"	v
+put	ph.c	/^void put(int key, int value)$/;"	f	file:
+put_thread	ph.c	/^put_thread(void *xa)$/;"	f	file:
+round	barrier.c	/^  int round;     \/\/ Barrier round$/;"	m	struct:barrier	file:
+round	barrier.c	/^static int round = 0;$/;"	v	file:
+table	ph.c	/^struct entry *table[NBUCKET];$/;"	v	typeref:struct:entry
+thread	barrier.c	/^thread(void *xa)$/;"	f	file:
+value	ph.c	/^  int value;$/;"	m	struct:entry	file:

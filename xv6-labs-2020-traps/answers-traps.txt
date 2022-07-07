@@ -1,0 +1,7 @@
+ r(a2) = 13;r(a1) = 12; a0 stores the RA
+ inline optimization
+ 0x628
+ ra = pc+4 = 0x38
+ HE110 World  change i -> 0x726c6400 only
+ a1 store  first arg; a2 store second arg
+ 
